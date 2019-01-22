@@ -1,8 +1,76 @@
 @charset "utf-8";
-body {background-color: blue;
+
+*{  
+    margin: 0;
+    padding:0; 
 }
 
-li {background-color: darkgray;
-display: inline;}
+header {
+    width: 100%;
+    background:#65FEF9 ;
+    height: 70px;
+}
 
-aside {float: left;}s
+.ancho{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    background:red;
+    
+}
+
+.logo {
+    width: 30%;
+    height: 70px;
+    background: blue;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+    
+}
+
+.logo p a{
+    color:#fff;
+    font-size:40px; 
+    text-decoration:none; 
+    font-weight:bold;
+    font-family: 'fuente'; 
+}
+
+nav {
+    width:70%;
+    height: 70px;
+    background:olive;
+    float: left;
+    text-align: right;
+    text-transform: uppercase;
+    padding-top: 25px;
+    box-sizing: border-box;
+   }
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color:#fff;
+    font-size 13px;
+    text-decoration: none;
+    padding-left: 15px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    font-family: 'fuente'; 
+}
+
+nav ul li a:hover{
+    color:#444;    
+}
+
+@font-face{
+    font-family: 'fuente';
+    src: url('./Raleway-Regular.ttf');
+}
+@font-face{
+    font-family: 'logo';
+    src :url ('./BungeeInline-Regular.ttf');
+}
